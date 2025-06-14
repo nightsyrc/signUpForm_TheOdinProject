@@ -1,0 +1,132 @@
+/* Reset default padding/margin for cleaner layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Add Smooth Scrolling in CSS */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Tinosk', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-height: 100vh;
+  color: #fff3f3;
+  background: linear-gradient(to right, #111827, #1f2937, #111827);
+}
+
+h1 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.heroName {
+  color: #5affbf;
+}
+
+.formContainer {
+  display: flex;
+  height: 100vh;
+}
+
+.right {
+  flex: 1.5;
+  background-color: #070f16;
+  padding: 40px 70px 0px 60px;
+}
+
+.left {
+  display: flex;
+  height: 100vh;
+  flex: 1;
+  background-image: url("images/bg3.jpg");    
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  filter: grayscale(55%);
+}
+
+.transparentBox {
+  display: flex;
+  flex: 1;
+  background-color: #acbbcb89;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Miss Fajardose", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.formNameInputContainer, 
+.formContactInputContainer, 
+.passwordContainer {
+  display: flex;
+  gap: 2rem;
+}
+
+.signUpFormInput {
+  flex: 1;
+  height: 50px;
+  font-size: large;
+  color: #5affbe;
+  background-color: #0000006e;
+  padding: 0px 0px 0px 10px;
+}
+
+.signUpForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.formNameContainer, 
+.formContactContainer, 
+.formPasswordContainer {
+  padding: 0px 0px 20px 0px;
+}
+
+.createAccountButton {
+  margin: 10px 0px 20px 0px;
+}
+
+/* Additional styles for better form appearance */
+.login-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.login-text a {
+  color: #5affbf;
+  text-decoration: none;
+}
+
+.login-text a:hover {
+  text-decoration: underline;
+}
