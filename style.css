@@ -33,7 +33,7 @@ h1 {
 button {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #0fc296;
   color: white;
   border: none;
   border-radius: 8px;
@@ -129,4 +129,11 @@ button:hover {
 
 .login-text a:hover {
   text-decoration: underline;
+}
+
+.formPasswordContainer {
+   border-bottom: 2px solid #4dbc99e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
